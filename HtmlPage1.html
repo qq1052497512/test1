@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>可滚动的固定背景图效果</title>
+    <style>
+        body { padding: 0; margin: 0; }
+        .d1,.d2,.d3,.d4 {
+            height: 500px;
+            border-bottom: 1px solid #ff6a00;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .d1 { background-image: url("images/1.jpg"); }
+        .d2 { background-image: url("images/2.jpg"); }
+        .d3 { background-image: url("images/3.jpg"); }
+        .d4 { background-image: url("images/4.jpg");  border-bottom: none; }
+    </style>
+</head>
+<body>
+    <div class="d1"></div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+    <div class="d4"></div>
+</body>
+</html>
